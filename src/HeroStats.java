@@ -7,6 +7,7 @@ public class HeroStats {
     private int wins;
     private int loses;
     private float winRate;
+    private float numberOfGames;
     private ArrayList<Boolean> results;
     public HeroStats(Hero hero, int wins, int loses, float winRate, ArrayList<Boolean> results) {
         this.hero = hero;
